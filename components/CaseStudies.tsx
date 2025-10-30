@@ -2,16 +2,16 @@ import React from 'react';
 import { ChartBarIcon } from './Icons';
 
 const StatCard: React.FC<{ value: string; label: string; description: string }> = ({ value, label, description }) => (
-    <div className="bg-brand-green-dark p-8 rounded-lg text-center transform hover:scale-105 transition-transform duration-300">
+    <div className="bg-white shadow-lg p-8 rounded-lg text-center transform hover:scale-105 transition-transform duration-300 border border-gray-200">
         <p className="text-5xl font-extrabold text-brand-green-light">{value}</p>
-        <p className="mt-2 text-xl font-bold text-white">{label}</p>
-        <p className="mt-2 text-gray-300">{description}</p>
+        <p className="mt-2 text-xl font-bold text-brand-green-dark">{label}</p>
+        <p className="mt-2 text-brand-gray">{description}</p>
     </div>
 );
 
 const CaseStudies: React.FC = () => {
     return (
-        <section id="proof" className="py-20 bg-brand-off-white">
+        <section id="proof" className="py-20 bg-brand-off-white text-brand-gray">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
                     <h2 className="text-base text-brand-green-light font-semibold tracking-wide uppercase">
