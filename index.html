@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale-1.0" />
     <title>EF Solution Asia | The Future of Agriculture</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -19,6 +19,8 @@
               'brand-beige': '#F5F5DC',
               'brand-off-white': '#FAF9F6',
               'brand-gray': '#4A5568',
+              'brand-dark': '#111827',
+              'brand-light-gray': '#D1D5DB',
             },
             fontFamily: {
               sans: ['Inter', 'sans-serif'],
@@ -34,6 +36,9 @@
       html {
         scroll-behavior: smooth;
       }
+      section[id], footer[id] {
+        scroll-margin-top: 5rem; /* Header height (h-20) */
+      }
     </style>
   <script type="importmap">
 {
@@ -44,7 +49,6 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
 </head>
   <body>
     <div id="root"></div>
