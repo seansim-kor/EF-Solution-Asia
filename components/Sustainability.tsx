@@ -38,7 +38,7 @@ const Sustainability: React.FC = () => {
           </div>
         </div>
         <div className="order-1 md:order-2">
-            <img className="rounded-lg shadow-xl w-full h-auto object-cover" src="https://images.unsplash.com/photo-1560493676-04071c5f467b?q=80&w=2874&auto=format&fit=crop" alt="A person's hands holding rich soil with a small green sprout growing" />
+            <img className="rounded-lg shadow-xl w-full h-auto object-cover" src="/hands-holding-soil.jpg" alt="A person's hands holding rich soil with a small green sprout growing" />
         </div>
       </div>
     </section>

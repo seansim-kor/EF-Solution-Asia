@@ -60,7 +60,7 @@ const MissionVision: React.FC = () => {
             </div>
           </div>
           <div className="mt-10 lg:mt-0">
-              <img className="rounded-lg shadow-xl" src="https://images.unsplash.com/photo-1625246333195-78d9c3874449?q=80&w=2940&auto=format&fit=crop" alt="A farmer standing in a lush, healthy field, symbolizing prosperity and sustainable agriculture"/>
+              <img className="rounded-lg shadow-xl" src="/farmer-in-field.jpg" alt="A farmer standing in a lush, healthy field, symbolizing prosperity and sustainable agriculture"/>
           </div>
         </div>
       </div>

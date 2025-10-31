@@ -22,19 +22,19 @@ const Testimonials: React.FC = () => {
                         quote="We saw a 42% yield increase in our Annam rice paddies after switching. The cost savings on fertilizer were just a bonus. It's a revolutionary product."
                         name="Minh Nguyen"
                         role="Rice Farmer, Vietnam"
-                        imgSrc="https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=250&h=250&fit=crop"
+                        imgSrc="/avatar-farmer-vietnam.jpg"
                     />
                     <TestimonialCard 
                         quote="Our cotton quality has never been better. The soil health has visibly improved, and we've cut our chemical fertilizer usage by more than half. I highly recommend it."
                         name="Li Wei"
                         role="Cotton Producer, Xinjiang, China"
-                        imgSrc="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=250&h=250&fit=crop"
+                        imgSrc="/avatar-producer-china.jpg"
                     />
                     <TestimonialCard 
                         quote="As a large-scale palm oil producer, efficiency and sustainability are key. EF Solution delivers on both. Our trees are healthier, and our production costs are down 50%."
                         name="Ahmad bin Ishak"
                         role="Plantation Manager, Indonesia"
-                        imgSrc="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?q=80&w=250&h=250&fit=crop"
+                        imgSrc="/avatar-manager-indonesia.jpg"
                     />
                 </div>
             </div>

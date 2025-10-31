@@ -58,7 +58,7 @@ const Technology: React.FC = () => {
                 </HowItWorksStep>
             </div>
             <div>
-                <img className="rounded-lg shadow-xl" src="https://images.unsplash.com/photo-1579532582937-16c108930bf0?q=80&w=2574&auto=format&fit=crop" alt="Scientist examining a plant in a high-tech lab" />
+                <img className="rounded-lg shadow-xl" src="/scientist-with-plant.jpg" alt="Scientist examining a plant in a high-tech lab" />
             </div>
         </div>
       </div>
