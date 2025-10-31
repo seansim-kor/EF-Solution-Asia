@@ -27,11 +27,10 @@ const heroContents: HeroContent[] = [
 ];
 
 const videoSources = [
-  'https://github.com/seansim-kor/EF-Solution-Asia/raw/main/main1.mp4',
-  'https://github.com/seansim-kor/EF-Solution-Asia/raw/main/main2.mp4',
-  'https://github.com/seansim-kor/EF-Solution-Asia/raw/main/main3.mp4',
+  '/main1.mp4',
+  '/main2.mp4',
+  '/main3.mp4',
 ];
-
 
 const Hero: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
