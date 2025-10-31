@@ -1,0 +1,32 @@
+name: Move Videos to Public Folder
+
+on:
+  workflow_dispatch:
+
+jobs:
+  move-videos:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      
+      - name: Create public folder and move videos
+        run: |
+          mkdir -p public
+          mv main1.mp4 public/main1.mp4
+          mv main2.mp4 public/main2.mp4
+          mv main3.mp4 public/main3.mp4
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/
+          git add -u
+          git commit -m "Move video files to public folder for GitHub Pages"
+          git push
