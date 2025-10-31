@@ -147,7 +147,7 @@ const heroContents = [
   }
 ];
 
-const videoSource = '/EF_Asia_MV1.mp4';
+const videoSource = './EF_Asia_MV1.mp4';
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
