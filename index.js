@@ -147,7 +147,7 @@ const heroContents = [
   }
 ];
 
-const videoSource = 'https://raw.githubusercontent.com/seansim-kor/EF-Solution-Asia/main/public/EF_Asia_MV1.mp4';
+const videoSource = 'public/EF_Asia_MV1.mp4';
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -307,7 +307,7 @@ const MissionVision = () => {
             )
           ),
           React.createElement('div', { className: "mt-10 lg:mt-0" },
-              React.createElement('img', { className: "rounded-lg shadow-xl", src: "https://raw.githubusercontent.com/seansim-kor/EF-Solution-Asia/main/public/farmer-in-field.jpg", alt: "A farmer standing in a lush, healthy field, symbolizing prosperity and sustainable agriculture" })
+              React.createElement('img', { className: "rounded-lg shadow-xl", src: "https://raw.githubusercontent.com/seansim-kor/EF-Solution-Asia/main/public/scientist.jpeg", alt: "Agricultural scientist inspecting crops" })
           )
         )
       )
@@ -368,7 +368,7 @@ const Technology = () => {
                 )
             ),
             React.createElement('div', {},
-                React.createElement('img', { className: "rounded-lg shadow-xl", src: "https://raw.githubusercontent.com/seansim-kor/EF-Solution-Asia/main/public/scientist-with-plant.jpg", alt: "Scientist examining a plant in a high-tech lab" })
+                React.createElement('img', { className: "rounded-lg shadow-xl", src: "https://raw.githubusercontent.com/seansim-kor/EF-Solution-Asia/main/public/Strawberry.png", alt: "Healthy strawberry plant grown with EF Solution" })
             )
         )
       )
@@ -480,7 +480,7 @@ const Testimonials = () => {
                             quote: "We saw a 42% yield increase in our Annam rice paddies after switching. The cost savings on fertilizer were just a bonus. It's a revolutionary product.",
                             name: "Minh Nguyen",
                             role: "Rice Farmer, Vietnam",
-                            imgSrc: "https://raw.githubusercontent.com/seansim-kor/EF-Solution-Asia/main/public/avatar-farmer-vietnam.jpg"
+                            imgSrc: "public/avatar-farmer-vietnam.jpg"
                         }
                     ),
                     React.createElement(TestimonialCard, 
@@ -488,7 +488,7 @@ const Testimonials = () => {
                             quote: "Our cotton quality has never been better. The soil health has visibly improved, and we've cut our chemical fertilizer usage by more than half. I highly recommend it.",
                             name: "Li Wei",
                             role: "Cotton Producer, Xinjiang, China",
-                            imgSrc: "https://raw.githubusercontent.com/seansim-kor/EF-Solution-Asia/main/public/avatar-producer-china.jpg"
+                            imgSrc: "public/avatar-producer-china.jpg"
                         }
                     ),
                     React.createElement(TestimonialCard, 
@@ -496,7 +496,7 @@ const Testimonials = () => {
                             quote: "As a large-scale palm oil producer, efficiency and sustainability are key. EF Solution delivers on both. Our trees are healthier, and our production costs are down 50%.",
                             name: "Ahmad bin Ishak",
                             role: "Plantation Manager, Indonesia",
-                            imgSrc: "https://raw.githubusercontent.com/seansim-kor/EF-Solution-Asia/main/public/avatar-manager-indonesia.jpg"
+                            imgSrc: "public/avatar-manager-indonesia.jpg"
                         }
                     )
                 )
@@ -534,7 +534,7 @@ const Sustainability = () => {
           )
         ),
         React.createElement('div', { className: "order-1 md:order-2" },
-            React.createElement('img', { className: "rounded-lg shadow-xl w-full h-auto object-cover", src: "https://raw.githubusercontent.com/seansim-kor/EF-Solution-Asia/main/public/hands-holding-soil.jpg", alt: "A person's hands holding rich soil with a small green sprout growing" })
+            React.createElement('img', { className: "rounded-lg shadow-xl w-full h-auto object-cover", src: "public/hands-holding-soil.jpg", alt: "A person's hands holding rich soil with a small green sprout growing" })
         )
       )
     )
